@@ -78,13 +78,13 @@
       if (toggle) toggle.setAttribute('aria-pressed', String(dark));
     };
 
-    // 1) saved preference → 2) system preference → 3) light
+    // 1) saved preference → 2) default to DARK mode
     const saved = localStorage.getItem(KEY);
     let dark;
     if (saved === 'dark' || saved === 'light') {
       dark = saved === 'dark';
     } else {
-      dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      dark = true; // Default theme is Dark Mode
     }
     applyTheme(dark);
 
@@ -205,7 +205,7 @@
     const el = $('#typedText');
     if (!el) return;
 
-    const words = ['Laravel Backend Developer', 'Backend Architect', 'API Engineer', 'Laravel Specialist'];
+    const words = ['Senior Laravel Architect', 'REST API Specialist', 'SaaS Systems Engineer', 'Full-Stack Integrator'];
     if (reducedMotion) { el.textContent = words[0]; return; }
 
     let wordIndex = 0;
@@ -327,12 +327,13 @@
       {
         title: 'DevOps & Tools',
         items: [
+          { name: 'Postman', desc: 'API Testing & Specs', icon: '🚀' },
+          { name: 'Notion', desc: 'Docs & Task Workspace', icon: '📝' },
           { name: 'Docker', desc: 'Containerization', icon: '🐳' },
           { name: 'Git & GitHub', desc: 'Version Control', icon: '📦' },
           { name: 'AWS', desc: 'EC2, S3, RDS, Deployment', icon: '☁️' },
           { name: 'Azure', desc: 'Cloud Services & Hosting', icon: '🔷' },
           { name: 'CI/CD', desc: 'Automated Deployment', icon: '🔄' },
-          { name: 'Linux Server', desc: 'Server Administration', icon: '🐧' },
         ],
       },
     ];
@@ -449,7 +450,7 @@
         status: 'Production', st: 'st-prod',
         desc: 'Face-recognition attendance with liveness detection for remote branches, synced to a live dashboard.',
         features: ['Liveness & anti-spoofing', '99.2% verification accuracy', 'Offline sync for field teams'],
-        tech: ['Laravel', 'Python', 'AWS Rekognition', 'Redis'],
+        tech: ['Laravel', 'REST API', 'Redis', 'Docker'],
       },
       {
         title: 'Inventory Management API',

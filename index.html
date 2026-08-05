@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
+
 <head>
   <!-- ============================================================
        MD. Tomas Uddin — Laravel Backend Developer Portfolio
@@ -9,10 +10,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Primary Meta -->
-  <title>MD. Tomas Uddin — Laravel Backend Developer | Portfolio</title>
-  <meta name="title" content="MD. Tomas Uddin — Laravel Backend Developer | Portfolio" />
-  <meta name="description" content="Portfolio of MD. Tomas Uddin — Laravel Backend Developer. Building scalable REST APIs, payment integrations, and production-ready Laravel applications. Diploma (Kishoreganj Polytechnic Institute), BSc in CSE (Uttara University)." />
-  <meta name="keywords" content="Laravel Developer, PHP, REST API, Backend Developer, Portfolio, Bangladesh, Kishoreganj Polytechnic Institute, Uttara University" />
+  <title>MD. Tomas Uddin — Senior Laravel &amp; Backend Architect | Scalable REST APIs</title>
+  <meta name="title" content="MD. Tomas Uddin — Senior Laravel &amp; Backend Architect | Scalable REST APIs" />
+  <meta name="description"
+    content="Official Portfolio of MD. Tomas Uddin — Senior Backend Engineer &amp; Laravel Architect specializing in high-performance REST APIs, multi-tenant SaaS platforms, payment integrations (Stripe, PayPal, bKash), and cloud infrastructure." />
+  <meta name="keywords"
+    content="Laravel Architect, Senior PHP Developer, REST API Engineer, Backend Engineer, SaaS Specialist, Multi-Tenant Architecture, Stripe Integrations, Redis Caching, Microservices, Bangladesh" />
   <meta name="author" content="MD. Tomas Uddin" />
   <meta name="robots" content="index, follow" />
   <!-- Replace with your deployed URL when hosting -->
@@ -21,15 +24,17 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://tomasuddin.dev/" />
-  <meta property="og:title" content="MD. Tomas Uddin — Laravel Backend Developer" />
-  <meta property="og:description" content="Scalable REST APIs, payment integrations and production-ready Laravel applications." />
+  <meta property="og:title" content="MD. Tomas Uddin — Senior Laravel &amp; Backend Architect" />
+  <meta property="og:description"
+    content="High-performance REST APIs, multi-tenant SaaS platforms, and enterprise Laravel solutions engineered for speed and resilience." />
   <meta property="og:image" content="assets/images/avatar.svg" />
   <meta property="og:locale" content="en_US" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="MD. Tomas Uddin — Laravel Backend Developer" />
-  <meta name="twitter:description" content="Scalable REST APIs, payment integrations and production-ready Laravel applications." />
+  <meta name="twitter:title" content="MD. Tomas Uddin — Senior Laravel &amp; Backend Architect" />
+  <meta name="twitter:description"
+    content="High-performance REST APIs, multi-tenant SaaS platforms, and enterprise Laravel solutions engineered for speed and resilience." />
   <meta name="twitter:image" content="assets/images/avatar.svg" />
 
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F8FAFC" />
@@ -40,7 +45,9 @@
   <!-- Fonts: Inter + Space Grotesk -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
 
   <!-- Lenis smooth scrolling CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.css" />
@@ -68,7 +75,8 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
-<body class="font-sans antialiased bg-[#F8FAFC] text-slate-700 dark:bg-[#020617] dark:text-slate-300 transition-colors duration-500 selection:bg-primary/20 selection:text-primary">
+<body
+  class="font-sans antialiased bg-[#F8FAFC] text-slate-700 dark:bg-[#020617] dark:text-slate-300 transition-colors duration-500 selection:bg-primary/20 selection:text-primary">
 
   <!-- Skip link for keyboard users -->
   <a href="#main" class="skip-link">Skip to main content</a>
@@ -92,52 +100,67 @@
   <!-- ============================================================
        NAVIGATION
        ============================================================ -->
+  <!--begin::Header-->
   <header id="siteHeader" class="fixed inset-x-0 top-0 z-50 transition-all duration-300">
+    <!--begin::Navbar-->
     <nav class="nav-inner" aria-label="Main navigation">
-      <!-- Logo -->
+      <!--begin::Logo-->
       <a href="#home" class="logo" aria-label="MD. Tomas Uddin — home">
         <span class="logo-mark" aria-hidden="true">
-          <svg viewBox="0 0 32 32" fill="none"><path d="M8 9h16M8 16h10M8 23h13" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          <svg viewBox="0 0 32 32" fill="none">
+            <path d="M8 9h16M8 16h10M8 23h13" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+          </svg>
         </span>
-        <span class="font-display font-bold text-slate-900 dark:text-white">Tomas<span class="text-primary"> Uddin</span></span>
+        <span class="font-display font-bold text-slate-900 dark:text-white">Tomas<span class="text-primary">
+            Uddin</span></span>
       </a>
+      <!--end::Logo-->
 
-      <!-- Desktop links -->
+      <!--begin::Desktop Links-->
       <ul class="nav-links" id="navLinks">
         <li><a class="nav-link" href="#home">Home</a></li>
-        <li><a class="nav-link" href="#about">About</a></li>
         <li><a class="nav-link" href="#skills">Skills</a></li>
-        <li><a class="nav-link" href="#experience">Experience</a></li>
         <li><a class="nav-link" href="#projects">Projects</a></li>
         <li><a class="nav-link" href="#services">Services</a></li>
         <li><a class="nav-link" href="#blog">Blog</a></li>
         <li><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
+      <!--end::Desktop Links-->
 
+      <!--begin::Navbar Actions-->
       <div class="flex items-center gap-2">
         <!-- Theme toggle -->
         <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode" aria-pressed="false">
-          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
-          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round">
+            <circle cx="12" cy="12" r="4" />
+            <path
+              d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" />
+          </svg>
         </button>
 
         <!-- CTA -->
         <a href="#contact" class="btn btn-primary hidden md:inline-flex">Hire Me</a>
 
         <!-- Mobile menu button -->
-        <button id="menuBtn" class="icon-btn lg:hidden" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <button id="menuBtn" class="icon-btn lg:hidden" aria-label="Open menu" aria-expanded="false"
+          aria-controls="mobileMenu">
           <span class="hamburger" aria-hidden="true"><i></i><i></i><i></i></span>
         </button>
       </div>
+      <!--end::Navbar Actions-->
     </nav>
+    <!--end::Navbar-->
 
-    <!-- Mobile menu panel -->
+    <!--begin::Mobile Menu Panel-->
     <div id="mobileMenu" class="mobile-menu lg:hidden" hidden>
       <ul>
         <li><a class="mobile-link" href="#home">Home</a></li>
-        <li><a class="mobile-link" href="#about">About</a></li>
         <li><a class="mobile-link" href="#skills">Skills</a></li>
-        <li><a class="mobile-link" href="#experience">Experience</a></li>
         <li><a class="mobile-link" href="#projects">Projects</a></li>
         <li><a class="mobile-link" href="#services">Services</a></li>
         <li><a class="mobile-link" href="#blog">Blog</a></li>
@@ -145,15 +168,15 @@
       </ul>
       <a href="assets/files/resume.pdf" download class="btn btn-primary w-full justify-center mt-6">Download Resume</a>
     </div>
+    <!--end::Mobile Menu Panel-->
   </header>
+  <!--end::Header-->
 
   <main id="main">
 
-    <!-- ============================================================
-         HERO
-         ============================================================ -->
+    <!--begin::Hero Section-->
     <section id="home" class="relative overflow-hidden pt-32 lg:pt-40 pb-16">
-      <!-- Animated background -->
+      <!--begin::Hero Background-->
       <div class="hero-bg" aria-hidden="true">
         <div class="bg-grid"></div>
         <div class="blob blob-1"></div>
@@ -161,69 +184,104 @@
         <div class="blob blob-3"></div>
         <!-- Floating Laravel icon -->
         <div class="float-icon float-icon-1" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.7 5.4c-.1-.5-.5-.9-1-1-.2 0-.4 0-.5.1l-4.6 1.3-1.3-4.6c-.1-.5-.5-.9-1-1-.5-.1-1 .1-1.3.5L6.5 11H2c-.6 0-1 .4-1 1 0 .3.1.6.3.8l1.4 1.4L1 16l1.4 1.4 1.8-1.8.4.4L3.8 18 5.2 19.4l1.8-1.8.4.4L6 20.4 7.4 21.8 10 19.2l.4.4L9 21.2l1.4 1.4 2.6-2.6.4.4-1.4 1.4 1.4 1.4 2.6-2.6c.4-.4.6-1 .4-1.5-.1-.5-.5-.9-1-1-.2 0-.4 0-.5.1l-.4.1 1.3-4.6 4.6 1.3c.2 0 .4.1.6.1.4 0 .7-.1 1-.4.4-.3.5-.8.4-1.3l-1.4-4.5 4.5-1.4c.5-.2.9-.6 1-1z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M23.7 5.4c-.1-.5-.5-.9-1-1-.2 0-.4 0-.5.1l-4.6 1.3-1.3-4.6c-.1-.5-.5-.9-1-1-.5-.1-1 .1-1.3.5L6.5 11H2c-.6 0-1 .4-1 1 0 .3.1.6.3.8l1.4 1.4L1 16l1.4 1.4 1.8-1.8.4.4L3.8 18 5.2 19.4l1.8-1.8.4.4L6 20.4 7.4 21.8 10 19.2l.4.4L9 21.2l1.4 1.4 2.6-2.6.4.4-1.4 1.4 1.4 1.4 2.6-2.6c.4-.4.6-1 .4-1.5-.1-.5-.5-.9-1-1-.2 0-.4 0-.5.1l-.4.1 1.3-4.6 4.6 1.3c.2 0 .4.1.6.1.4 0 .7-.1 1-.4.4-.3.5-.8.4-1.3l-1.4-4.5 4.5-1.4c.5-.2.9-.6 1-1z" />
+          </svg>
         </div>
         <div class="float-icon float-icon-2" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 2 7v10l10 5 10-5V7l-10-5zm0 2.2 7.3 3.6-3 1.5-7.3-3.6L12 4.2zM6.9 9.3l7.3 3.6-2.2 1.1-7.3-3.6 2.2-1.1zm11.2 5.6-7.3-3.6 2.2-1.1 7.3 3.6-2.2 1.1zm-1.1 2.2L9.7 13.5v3.6l7.3 3.6v-3.6z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 2 2 7v10l10 5 10-5V7l-10-5zm0 2.2 7.3 3.6-3 1.5-7.3-3.6L12 4.2zM6.9 9.3l7.3 3.6-2.2 1.1-7.3-3.6 2.2-1.1zm11.2 5.6-7.3-3.6 2.2-1.1 7.3 3.6-2.2 1.1zm-1.1 2.2L9.7 13.5v3.6l7.3 3.6v-3.6z" />
+          </svg>
         </div>
       </div>
+      <!--end::Hero Background-->
 
+      <!--begin::Hero Container-->
       <div class="container relative">
         <div class="grid lg:grid-cols-2 gap-14 items-center">
 
-          <!-- Left: content -->
+          <!--begin::Hero Content Left-->
           <div class="text-center lg:text-left">
-            <!-- Availability -->
+            <!-- Availability badge -->
             <span class="chip inline-flex items-center gap-2 reveal">
               <span class="status-dot" aria-hidden="true"></span>
               Available for freelance projects
             </span>
 
+            <!--begin::Hero Title-->
             <h1 class="mt-6 reveal reveal-1">
-              <span class="block text-sm sm:text-base uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400 font-semibold">Hi, I'm</span>
-              <span class="block font-display font-bold text-4xl sm:text-5xl xl:text-6xl text-slate-900 dark:text-white mt-3">
+              <span
+                class="block text-sm sm:text-base uppercase tracking-[0.2em] text-slate-500 dark:text-slate-400 font-semibold">Hi,
+                I'm</span>
+              <span
+                class="block font-display font-bold text-4xl sm:text-5xl xl:text-6xl text-slate-900 dark:text-white mt-3">
                 MD. <span class="text-gradient">Tomas Uddin</span>
               </span>
               <span class="block font-display font-semibold text-2xl sm:text-3xl xl:text-4xl mt-4 h-[1.4em]">
-                <span id="typedText" class="text-slate-700 dark:text-slate-200" aria-live="polite"></span><span class="typing-caret" aria-hidden="true"></span>
+                <span id="typedText" class="text-slate-700 dark:text-slate-200" aria-live="polite"></span><span
+                  class="typing-caret" aria-hidden="true"></span>
               </span>
             </h1>
+            <!--end::Hero Title-->
 
             <p class="mt-5 max-w-xl mx-auto lg:mx-0 text-slate-600 dark:text-slate-400 reveal reveal-2">
-              I build fast, secure and scalable backend systems with Laravel &amp; PHP — REST APIs,
-              payment integrations, queues and cloud deployments that power real products.
+              I architect resilient backend systems, high-performance RESTful APIs, and secure payment workflows with
+              Laravel &amp; PHP — engineered for speed, clean architecture, and seamless scale.
             </p>
 
-            <!-- CTA buttons -->
+            <!--begin::Hero Actions-->
             <div class="mt-8 flex flex-wrap justify-center lg:justify-start gap-3 reveal reveal-3">
               <a href="assets/files/resume.pdf" download class="btn btn-primary">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" class="btn-icon">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                </svg>
                 Download Resume
               </a>
               <a href="#contact" class="btn btn-secondary">Hire Me</a>
               <a href="#contact" class="btn btn-ghost">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="btn-icon"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  class="btn-icon">
+                  <rect x="3" y="4" width="18" height="18" rx="2" />
+                  <path d="M16 2v4M8 2v4M3 10h18" />
+                </svg>
                 Schedule Meeting
               </a>
             </div>
+            <!--end::Hero Actions-->
 
-            <!-- Social links -->
+            <!--begin::Hero Socials-->
             <div class="mt-6 flex justify-center lg:justify-start gap-3 reveal reveal-4">
-              <a href="https://github.com/yourname" target="_blank" rel="noopener" class="icon-btn" aria-label="GitHub profile">
-                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.9 10.9c.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17.2 5.6 18.2 5.9 18.2 5.9c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.6.8.5A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+              <a href="https://github.com/yourname" target="_blank" rel="noopener" class="icon-btn"
+                aria-label="GitHub profile">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.9 10.9c.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17.2 5.6 18.2 5.9 18.2 5.9c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.6.8.5A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z" />
+                </svg>
               </a>
-              <a href="https://linkedin.com/in/yourname" target="_blank" rel="noopener" class="icon-btn" aria-label="LinkedIn profile">
-                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.55V9h3.57v11.45Z"/></svg>
+              <a href="https://linkedin.com/in/yourname" target="_blank" rel="noopener" class="icon-btn"
+                aria-label="LinkedIn profile">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.55V9h3.57v11.45Z" />
+                </svg>
               </a>
               <a href="mailto:hello@tomasuddin.dev" class="icon-btn" aria-label="Send email">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect x="2" y="4" width="20" height="16" rx="2" />
+                  <path d="m22 7-10 6L2 7" />
+                </svg>
               </a>
             </div>
+            <!--end::Hero Socials-->
 
-            <!-- Stats cards -->
+            <!--begin::Hero Stats Grid-->
             <div class="mt-10 grid grid-cols-2 sm:grid-cols-3 gap-3 reveal reveal-5">
               <div class="stat-card">
-                <span class="stat-value"><span class="counter" data-target="3">0</span>+</span>
+                <span class="stat-value">1.4+</span>
                 <span class="stat-label">Years Experience</span>
               </div>
               <div class="stat-card">
@@ -243,22 +301,29 @@
                 <span class="stat-label">Happy Clients</span>
               </div>
               <div class="stat-card">
-                <span class="stat-value flex items-center justify-center gap-1.5"><span class="status-dot" aria-hidden="true"></span>Open</span>
+                <span class="stat-value flex items-center justify-center gap-1.5"><span class="status-dot"
+                    aria-hidden="true"></span>Open</span>
                 <span class="stat-label">Availability</span>
               </div>
             </div>
+            <!--end::Hero Stats Grid-->
           </div>
+          <!--end::Hero Content Left-->
 
-          <!-- Right: photo -->
+          <!--begin::Hero Avatar Right-->
           <div class="relative mx-auto max-w-sm w-full reveal reveal-2">
             <div class="avatar-frame">
-              <img src="assets/images/avatar.svg" alt="Portrait placeholder of MD. Tomas Uddin" class="rounded-[2rem] w-full h-auto relative z-10" width="400" height="480" />
+              <img src="assets/images/avatar.svg" alt="Portrait placeholder of MD. Tomas Uddin"
+                class="rounded-[2rem] w-full h-auto relative z-10" width="400" height="480" />
               <div class="avatar-glow" aria-hidden="true"></div>
             </div>
 
             <!-- Floating: Laravel badge -->
             <div class="float-card float-card-1 glass" aria-hidden="true">
-              <span class="float-card-icon text-primary"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.7 5.4c-.1-.5-.5-.9-1-1-.2 0-.4 0-.5.1l-4.6 1.3-1.3-4.6c-.1-.5-.5-.9-1-1-.5-.1-1 .1-1.3.5L6.5 11H2c-.6 0-1 .4-1 1 0 .3.1.6.3.8l1.4 1.4L1 16l1.4 1.4 1.8-1.8.4.4L3.8 18 5.2 19.4l1.8-1.8.4.4L6 20.4 7.4 21.8 10 19.2l.4.4L9 21.2l1.4 1.4 2.6-2.6.4.4-1.4 1.4 1.4 1.4 2.6-2.6c.4-.4.6-1 .4-1.5-.1-.5-.5-.9-1-1-.2 0-.4 0-.5.1l-.4.1 1.3-4.6 4.6 1.3c.2 0 .4.1.6.1.4 0 .7-.1 1-.4.4-.3.5-.8.4-1.3l-1.4-4.5 4.5-1.4c.5-.2.9-.6 1-1z"/></svg></span>
+              <span class="float-card-icon text-primary"><svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M23.7 5.4c-.1-.5-.5-.9-1-1-.2 0-.4 0-.5.1l-4.6 1.3-1.3-4.6c-.1-.5-.5-.9-1-1-.5-.1-1 .1-1.3.5L6.5 11H2c-.6 0-1 .4-1 1 0 .3.1.6.3.8l1.4 1.4L1 16l1.4 1.4 1.8-1.8.4.4L3.8 18 5.2 19.4l1.8-1.8.4.4L6 20.4 7.4 21.8 10 19.2l.4.4L9 21.2l1.4 1.4 2.6-2.6.4.4-1.4 1.4 1.4 1.4 2.6-2.6c.4-.4.6-1 .4-1.5-.1-.5-.5-.9-1-1-.2 0-.4 0-.5.1l-.4.1 1.3-4.6 4.6 1.3c.2 0 .4.1.6.1.4 0 .7-.1 1-.4.4-.3.5-.8.4-1.3l-1.4-4.5 4.5-1.4c.5-.2.9-.6 1-1z" />
+                </svg></span>
               <div>
                 <p class="float-card-title">Laravel</p>
                 <p class="float-card-sub">Backend Expert</p>
@@ -268,7 +333,8 @@
             <!-- Floating: code snippet -->
             <div class="float-card float-card-2 code-float glass" aria-hidden="true">
               <div class="code-dots"><i></i><i></i><i></i></div>
-              <code class="code-line"><span class="c1">$</span> php artisan make:model <span class="c2">Order</span> --migration</code>
+              <code
+                class="code-line"><span class="c1">$</span> php artisan make:model <span class="c2">Order</span> --migration</code>
               <code class="code-line"><span class="c3">Model created successfully.</span></code>
             </div>
 
@@ -278,143 +344,63 @@
               <p class="float-card-title text-sm">Open to Work</p>
             </div>
           </div>
-        </div>
-
-        <!-- Scroll indicator -->
-        <a href="#about" class="scroll-indicator hidden sm:flex" aria-label="Scroll to about section">
-          <span class="mouse" aria-hidden="true"><i></i></span>
-          <span class="scroll-indicator-text">Scroll</span>
-        </a>
-      </div>
-    </section>
-
-    <!-- ============================================================
-         TECH MARQUEE
-         ============================================================ -->
-    <section class="py-10 border-y border-slate-200/70 dark:border-white/5 overflow-hidden" aria-label="Technologies">
-      <div class="marquee" aria-hidden="true">
-        <div class="marquee-track">
-          <span>Laravel</span><i class="dot">•</i><span>PHP</span><i class="dot">•</i><span>MySQL</span><i class="dot">•</i><span>Redis</span><i class="dot">•</i><span>Docker</span><i class="dot">•</i><span>AWS</span><i class="dot">•</i><span>GraphQL</span><i class="dot">•</i><span>Vue</span><i class="dot">•</i><span>React</span><i class="dot">•</i><span>Postman</span><i class="dot">•</i><span>Git</span><i class="dot">•</i><span>Nginx</span><i class="dot">•</i><span>MongoDB</span><i class="dot">•</i><span>Stripe</span><i class="dot">•</i>
-          <span>Laravel</span><i class="dot">•</i><span>PHP</span><i class="dot">•</i><span>MySQL</span><i class="dot">•</i><span>Redis</span><i class="dot">•</i><span>Docker</span><i class="dot">•</i><span>AWS</span><i class="dot">•</i><span>GraphQL</span><i class="dot">•</i><span>Vue</span><i class="dot">•</i><span>React</span><i class="dot">•</i><span>Postman</span><i class="dot">•</i><span>Git</span><i class="dot">•</i><span>Nginx</span><i class="dot">•</i><span>MongoDB</span><i class="dot">•</i><span>Stripe</span><i class="dot">•</i>
+          <!--end::Hero Avatar Right-->
         </div>
       </div>
+      <!--end::Hero Container-->
+
+      <!-- Scroll indicator -->
+      <a href="#skills" class="scroll-indicator hidden sm:flex" aria-label="Scroll to skills section">
+        <span class="mouse" aria-hidden="true"><i></i></span>
+        <span class="scroll-indicator-text">Scroll</span>
+      </a>
     </section>
+    <!--end::Hero Section-->
 
-    <!-- ============================================================
-         ABOUT
-         ============================================================ -->
-    <section id="about" class="section">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="chip">01 · About Me</span>
-          <h2 class="section-title">Turning ideas into <span class="text-gradient">reliable backends</span></h2>
-          <p class="section-sub">Developer, problem solver and lifelong learner based in Dhaka, Bangladesh.</p>
-        </div>
 
-        <div class="grid lg:grid-cols-5 gap-10 items-start">
-          <!-- Intro + philosophy -->
-          <div class="lg:col-span-3 reveal">
-            <p class="text-lg leading-relaxed">
-              I'm <strong class="text-slate-900 dark:text-white">MD. Tomas Uddin</strong>, a Laravel Backend Developer with a
-              Diploma in Computer Technology from <strong class="text-slate-900 dark:text-white">Kishoreganj Polytechnic Institute</strong>
-              and currently pursuing <strong class="text-slate-900 dark:text-white">BSc in CSE at Uttara University</strong>.
-            </p>
-            <p class="mt-4 leading-relaxed">
-              I specialise in designing clean architectures, secure authentication, payment integrations and
-              high-performance APIs. I care deeply about code quality — readable, tested and maintainable code
-              that teams love to ship.
-            </p>
-
-            <div class="mt-8 grid sm:grid-cols-3 gap-4">
-              <div class="mini-card glass">
-                <span class="mini-card-icon text-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
-                <h3 class="mini-card-title">Mission</h3>
-                <p class="mini-card-text">Ship backend systems that are fast, secure and effortless to scale.</p>
-              </div>
-              <div class="mini-card glass">
-                <span class="mini-card-icon text-secondary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8Z"/><circle cx="12" cy="12" r="3"/></svg></span>
-                <h3 class="mini-card-title">Vision</h3>
-                <p class="mini-card-text">Become a recognised architect of resilient, developer-friendly platforms.</p>
-              </div>
-              <div class="mini-card glass">
-                <span class="mini-card-icon text-accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"/><circle cx="7.5" cy="7.5" r="1.2" fill="currentColor"/></svg></span>
-                <h3 class="mini-card-title">Philosophy</h3>
-                <p class="mini-card-text">Clean code over clever code. Simple solutions that survive production.</p>
-              </div>
-            </div>
-
-            <!-- Highlights -->
-            <div class="mt-8">
-              <h3 class="font-display font-semibold text-slate-900 dark:text-white mb-4">Highlights</h3>
-              <ul class="highlight-list">
-                <li>REST APIs handling <strong>50K+ daily requests</strong> with sub-200ms response times</li>
-                <li>Payment integrations with <strong>Stripe, PayPal &amp; bKash</strong> for local &amp; global products</li>
-                <li>Redis caching &amp; queue workers cutting page load by <strong>60%</strong></li>
-                <li>Clean, documented code reviewed by <strong>300+ stars</strong> across open-source repos</li>
-                <li>Face-verification attendance system with <strong>99.2% accuracy</strong></li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Quick facts card -->
-          <div class="lg:col-span-2 reveal reveal-2">
-            <div class="glass rounded-3xl p-6 sm:p-8 gradient-border">
-              <h3 class="font-display font-semibold text-lg text-slate-900 dark:text-white mb-6">Quick Facts</h3>
-              <dl class="space-y-5 text-sm">
-                <div class="flex justify-between gap-4"><dt class="text-slate-500 dark:text-slate-400">Name</dt><dd class="font-medium text-slate-900 dark:text-white text-right">MD. Tomas Uddin</dd></div>
-                <div class="flex justify-between gap-4"><dt class="text-slate-500 dark:text-slate-400">Role</dt><dd class="font-medium text-slate-900 dark:text-white text-right">Laravel Backend Developer</dd></div>
-                <div class="flex justify-between gap-4"><dt class="text-slate-500 dark:text-slate-400">Location</dt><dd class="font-medium text-slate-900 dark:text-white text-right">Dhaka, Bangladesh</dd></div>
-                <div class="flex justify-between gap-4"><dt class="text-slate-500 dark:text-slate-400">Email</dt><dd class="font-medium text-primary text-right">hello@tomasuddin.dev</dd></div>
-                <div class="flex justify-between gap-4"><dt class="text-slate-500 dark:text-slate-400">Freelance</dt><dd class="font-medium text-success text-right">Available</dd></div>
-                <div class="flex justify-between gap-4"><dt class="text-slate-500 dark:text-slate-400">Languages</dt><dd class="font-medium text-slate-900 dark:text-white text-right">Bangla · English</dd></div>
-              </dl>
-              <div class="mt-6 pt-6 border-t border-slate-200/70 dark:border-white/10">
-                <div class="flex items-center gap-3">
-                  <img src="assets/images/favicon.svg" alt="" class="w-10 h-10" width="40" height="40" />
-                  <div>
-                    <p class="font-display font-semibold text-slate-900 dark:text-white text-sm">Currently</p>
-                    <p class="text-xs text-slate-500 dark:text-slate-400">BSc in CSE · Uttara University</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- ============================================================
          SKILLS
          ============================================================ -->
+    <!--begin::Skills Section-->
     <section id="skills" class="section bg-white/60 dark:bg-white/[0.02]">
       <div class="container">
+        <!--begin::Section Head-->
         <div class="section-head reveal">
-          <span class="chip">02 · Skills</span>
+          <span class="chip">01 · Skills</span>
           <h2 class="section-title">My <span class="text-gradient">tech arsenal</span></h2>
-          <p class="section-sub">Step-by-step breakdown of my technical stack across Backend, Frontend, and Tools &amp; Dev Skills.</p>
+          <p class="section-sub">Step-by-step breakdown of my technical stack across Backend, Frontend, and Tools &amp;
+            Dev Skills.</p>
         </div>
+        <!--end::Section Head-->
 
-        <!-- Skill sections rendered by main.js matching reference image -->
+        <!--begin::Skills Grid-->
         <div id="skillsGrid" class="space-y-10"></div>
+        <!--end::Skills Grid-->
       </div>
     </section>
+    <!--end::Skills Section-->
 
-    <!-- ============================================================
-         EXPERIENCE + EDUCATION
-         ============================================================ -->
+    <!--begin::Experience Section-->
     <section id="experience" class="section">
       <div class="container">
+        <!--begin::Section Head-->
         <div class="section-head reveal">
-          <span class="chip">03 · Journey</span>
+          <span class="chip">02 · Journey</span>
           <h2 class="section-title">Experience &amp; <span class="text-gradient">Education</span></h2>
           <p class="section-sub">The road so far — from polytechnic classrooms to production APIs.</p>
         </div>
+        <!--end::Section Head-->
 
         <div class="grid lg:grid-cols-2 gap-12">
-          <!-- Work timeline -->
+          <!--begin::Work Experience Timeline-->
           <div class="reveal">
             <h3 class="timeline-title">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="w-5 h-5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                class="w-5 h-5">
+                <rect x="2" y="7" width="20" height="14" rx="2" />
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+              </svg>
               Work Experience
             </h3>
 
@@ -424,66 +410,37 @@
                 <div class="t-card glass">
                   <div class="flex items-start justify-between gap-3 flex-wrap">
                     <div>
-                      <h4 class="t-role">Laravel Developer</h4>
-                      <p class="t-org">Freelance · Remote</p>
+                      <h4 class="t-role">Backend Laravel Developer</h4>
+                      <p class="t-org">Softvence Agency</p>
                     </div>
-                    <span class="t-badge">2023 — Present</span>
+                    <span class="t-badge">1.4 Years</span>
                   </div>
                   <ul class="t-list">
-                    <li>Built and shipped 15+ client projects — e-commerce, SaaS and booking platforms.</li>
-                    <li>Designed REST APIs consumed by web, Vue and Flutter applications.</li>
-                    <li>Integrated Stripe, PayPal and bKash payments with webhook handling.</li>
-                    <li>Reduced response times 60% with Redis caching and query optimisation.</li>
+                    <li>Engineered scalable Laravel backends, multi-tenant databases, and high-performance RESTful APIs.
+                    </li>
+                    <li>Integrated third-party payment gateways (Stripe, PayPal, bKash) and automated webhook
+                      architectures.</li>
+                    <li>Optimized database query performance and background queue processing with Redis &amp;
+                      Supervisor.</li>
+                    <li>Collaborated with cross-functional teams to build custom web applications and SaaS platforms.
+                    </li>
                   </ul>
-                  <div class="t-tags"><span>Laravel</span><span>MySQL</span><span>Redis</span><span>Docker</span></div>
-                </div>
-              </article>
-
-              <article class="t-item">
-                <span class="t-dot" aria-hidden="true"></span>
-                <div class="t-card glass">
-                  <div class="flex items-start justify-between gap-3 flex-wrap">
-                    <div>
-                      <h4 class="t-role">PHP &amp; Laravel Developer</h4>
-                      <p class="t-org">NovaSoft Ltd. · Dhaka</p>
-                    </div>
-                    <span class="t-badge">2022 — 2023</span>
-                  </div>
-                  <ul class="t-list">
-                    <li>Maintained and extended a multi-tenant admin dashboard serving 200+ businesses.</li>
-                    <li>Built reporting modules with queued exports and scheduled jobs.</li>
-                    <li>Implemented role-based access control with Laravel policies and gates.</li>
-                    <li>Wrote PHPUnit &amp; Pest suites covering 85% of core modules.</li>
-                  </ul>
-                  <div class="t-tags"><span>Laravel</span><span>PostgreSQL</span><span>Pest</span><span>Nginx</span></div>
-                </div>
-              </article>
-
-              <article class="t-item">
-                <span class="t-dot" aria-hidden="true"></span>
-                <div class="t-card glass">
-                  <div class="flex items-start justify-between gap-3 flex-wrap">
-                    <div>
-                      <h4 class="t-role">Laravel Intern</h4>
-                      <p class="t-org">PixelWorks IT · Kishoreganj</p>
-                    </div>
-                    <span class="t-badge">2021 — 2022</span>
-                  </div>
-                  <ul class="t-list">
-                    <li>Learned Laravel fundamentals — Eloquent, migrations, blade and queues.</li>
-                    <li>Contributed to internal CRMs and learned Git-based teamwork flows.</li>
-                    <li>Automated weekly reports with artisan commands.</li>
-                  </ul>
-                  <div class="t-tags"><span>PHP</span><span>Laravel</span><span>Git</span><span>MySQL</span></div>
+                  <div class="t-tags"><span>Laravel</span><span>PHP</span><span>REST
+                      API</span><span>MySQL</span><span>Redis</span></div>
                 </div>
               </article>
             </div>
           </div>
+          <!--end::Work Experience Timeline-->
 
-          <!-- Education timeline -->
+          <!--begin::Education Timeline-->
           <div class="reveal reveal-2">
             <h3 class="timeline-title">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="w-5 h-5">
+                <path d="M22 10 12 5 2 10l10 5 10-5Z" />
+                <path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5" />
+              </svg>
               Education
             </h3>
 
@@ -525,55 +482,107 @@
               </article>
             </div>
           </div>
+          <!--end::Education Timeline-->
         </div>
       </div>
     </section>
+    <!--end::Experience Section-->
 
-    <!-- ============================================================
-         FEATURED PROJECT
-         ============================================================ -->
+    <!--begin::Featured Project Section-->
     <section id="featured" class="section bg-white/60 dark:bg-white/[0.02]">
       <div class="container">
+        <!--begin::Section Head-->
         <div class="section-head reveal">
           <span class="chip">★ Featured</span>
           <h2 class="section-title">FaceVerify — AI <span class="text-gradient">Attendance System</span></h2>
           <p class="section-sub">A flagship face-recognition attendance platform with real-time verification.</p>
         </div>
+        <!--end::Section Head-->
 
         <div class="grid lg:grid-cols-2 gap-10 items-start">
-          <!-- Problem / Solution -->
+          <!--begin::Problem & Solution-->
           <div class="space-y-6 reveal">
             <div class="glass rounded-3xl p-6">
-              <span class="mini-card-icon text-danger"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4m0 4h.01"/></svg></span>
+              <span class="mini-card-icon text-danger"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 8v4m0 4h.01" />
+                </svg></span>
               <h3 class="font-display font-semibold text-lg text-slate-900 dark:text-white mt-3">The Problem</h3>
-              <p class="mt-2 text-sm leading-relaxed">Organisations relied on manual registers and biometric devices that are slow, spoofable and unusable across remote branches. Attendance data lived in silos with no real-time visibility for admins.</p>
+              <p class="mt-2 text-sm leading-relaxed">Organisations relied on manual registers and biometric devices
+                that are slow, spoofable and unusable across remote branches. Attendance data lived in silos with no
+                real-time visibility for admins.</p>
             </div>
             <div class="glass rounded-3xl p-6">
-              <span class="mini-card-icon text-success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg></span>
+              <span class="mini-card-icon text-success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m5 13 4 4L19 7" />
+                </svg></span>
               <h3 class="font-display font-semibold text-lg text-slate-900 dark:text-white mt-3">The Solution</h3>
-              <p class="mt-2 text-sm leading-relaxed">A Laravel-powered platform that captures selfies, verifies identity with a face-recognition service, and records attendance in real time — with liveness detection, anti-spoofing, and a live admin dashboard with exports.</p>
+              <p class="mt-2 text-sm leading-relaxed">A Laravel-powered platform that captures selfies, verifies
+                identity with a face-recognition service, and records attendance in real time — with liveness detection,
+                anti-spoofing, and a live admin dashboard with exports.</p>
             </div>
 
-            <!-- Architecture diagram placeholder -->
+            <!--begin::Architecture Diagram-->
             <div class="glass rounded-3xl p-6">
               <h3 class="font-display font-semibold text-lg text-slate-900 dark:text-white">Architecture</h3>
               <div class="mt-4 space-y-2">
-                <div class="arch-box"><span class="w-6 h-6 grid place-items-center text-primary" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg></span><div><p class="font-medium text-sm text-slate-900 dark:text-white">Laravel Admin &amp; Web</p><p class="text-xs text-slate-500 dark:text-slate-400">Blade · Filament · Policies</p></div></div>
+                <div class="arch-box"><span class="w-6 h-6 grid place-items-center text-primary" aria-hidden="true"><svg
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="3" width="18" height="18" rx="2" />
+                    </svg></span>
+                  <div>
+                    <p class="font-medium text-sm text-slate-900 dark:text-white">Laravel Admin &amp; Web</p>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">Blade · Filament · Policies</p>
+                  </div>
+                </div>
                 <div class="arch-arrow" aria-hidden="true">↓ REST API · Sanctum</div>
-                <div class="arch-box"><span class="w-6 h-6 grid place-items-center text-secondary" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M4 9h16M9 4v16"/></svg></span><div><p class="font-medium text-sm text-slate-900 dark:text-white">Laravel API Core</p><p class="text-xs text-slate-500 dark:text-slate-400">Jobs · Events · Validation</p></div></div>
+                <div class="arch-box"><span class="w-6 h-6 grid place-items-center text-secondary"
+                    aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16v16H4z" />
+                      <path d="M4 9h16M9 4v16" />
+                    </svg></span>
+                  <div>
+                    <p class="font-medium text-sm text-slate-900 dark:text-white">Laravel API Core</p>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">Jobs · Events · Validation</p>
+                  </div>
+                </div>
                 <div class="arch-arrow" aria-hidden="true">↓ Face Recognition Service</div>
-                <div class="arch-box"><span class="w-6 h-6 grid place-items-center text-accent" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></span><div><p class="font-medium text-sm text-slate-900 dark:text-white">Python · AWS Rekognition</p><p class="text-xs text-slate-500 dark:text-slate-400">Face match · Liveness check</p></div></div>
+                <div class="arch-box"><span class="w-6 h-6 grid place-items-center text-accent" aria-hidden="true"><svg
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7Z" />
+                      <circle cx="12" cy="12" r="3" />
+                    </svg></span>
+                  <div>
+                    <p class="font-medium text-sm text-slate-900 dark:text-white">AI Verification Engine</p>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">Face match · Liveness check</p>
+                  </div>
+                </div>
                 <div class="arch-arrow" aria-hidden="true">↓ Write</div>
-                <div class="arch-box"><span class="w-6 h-6 grid place-items-center text-warning" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></span><div><p class="font-medium text-sm text-slate-900 dark:text-white">MySQL · Redis</p><p class="text-xs text-slate-500 dark:text-slate-400">Attendances · Caching · Queues</p></div></div>
+                <div class="arch-box"><span class="w-6 h-6 grid place-items-center text-warning" aria-hidden="true"><svg
+                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <ellipse cx="12" cy="5" rx="8" ry="3" />
+                      <path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3" />
+                    </svg></span>
+                  <div>
+                    <p class="font-medium text-sm text-slate-900 dark:text-white">MySQL · Redis</p>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">Attendances · Caching · Queues</p>
+                  </div>
+                </div>
               </div>
             </div>
+            <!--end::Architecture Diagram-->
           </div>
+          <!--end::Problem & Solution-->
 
-          <!-- Meta + screenshots -->
+          <!--begin::Meta Stack & Stats-->
           <div class="space-y-6 reveal reveal-2">
             <div class="glass rounded-3xl p-6">
               <h3 class="font-display font-semibold text-lg text-slate-900 dark:text-white">Tech Stack</h3>
-              <div class="t-tags mt-3"><span>Laravel 11</span><span>Sanctum</span><span>MySQL</span><span>Redis</span><span>Python</span><span>AWS Rekognition</span><span>Docker</span><span>Nginx</span></div>
+              <div class="t-tags mt-3"><span>Laravel
+                  11</span><span>Sanctum</span><span>MySQL</span><span>Redis</span><span>Docker</span><span>Nginx</span>
+              </div>
             </div>
 
             <div class="grid grid-cols-2 gap-4">
@@ -599,107 +608,175 @@
             <div>
               <h3 class="font-display font-semibold text-lg text-slate-900 dark:text-white mb-4">Screens</h3>
               <div class="grid grid-cols-3 gap-3">
-                <div class="screenshot bg-gradient-to-br from-primary/20 to-secondary/20"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-7 h-7 text-primary"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg><span>Admin</span></div>
-                <div class="screenshot bg-gradient-to-br from-secondary/20 to-accent/20"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-7 h-7 text-secondary"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg><span>Dashboard</span></div>
-                <div class="screenshot bg-gradient-to-br from-accent/20 to-success/20"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-7 h-7 text-accent"><path d="M12 22a10 10 0 1 0-10-10 10 10 0 0 0 8.4 9.9"/><path d="M2 12h5m10 0h5"/><circle cx="12" cy="12" r="2.5"/></svg><span>Capture</span></div>
+                <div class="screenshot bg-gradient-to-br from-primary/20 to-secondary/20"><svg viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="1.6" class="w-7 h-7 text-primary">
+                    <rect x="3" y="4" width="18" height="13" rx="2" />
+                    <path d="M8 21h8M12 17v4" />
+                  </svg><span>Admin</span></div>
+                <div class="screenshot bg-gradient-to-br from-secondary/20 to-accent/20"><svg viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="1.6" class="w-7 h-7 text-secondary">
+                    <rect x="3" y="3" width="7" height="9" rx="1.5" />
+                    <rect x="14" y="3" width="7" height="5" rx="1.5" />
+                    <rect x="14" y="12" width="7" height="9" rx="1.5" />
+                    <rect x="3" y="16" width="7" height="5" rx="1.5" />
+                  </svg><span>Dashboard</span></div>
+                <div class="screenshot bg-gradient-to-br from-accent/20 to-success/20"><svg viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="1.6" class="w-7 h-7 text-accent">
+                    <path d="M12 22a10 10 0 1 0-10-10 10 10 0 0 0 8.4 9.9" />
+                    <path d="M2 12h5m10 0h5" />
+                    <circle cx="12" cy="12" r="2.5" />
+                  </svg><span>Capture</span></div>
               </div>
             </div>
 
             <div class="flex flex-wrap gap-3">
               <a href="https://github.com/yourname" target="_blank" rel="noopener" class="btn btn-secondary">
-                <svg viewBox="0 0 24 24" fill="currentColor" class="btn-icon"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.9 10.9c.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17.2 5.6 18.2 5.9 18.2 5.9c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.6.8.5A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+                <svg viewBox="0 0 24 24" fill="currentColor" class="btn-icon">
+                  <path
+                    d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.9 10.9c.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17.2 5.6 18.2 5.9 18.2 5.9c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.6.8.5A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z" />
+                </svg>
                 View on GitHub
               </a>
               <a href="#contact" class="btn btn-primary">Request Demo</a>
             </div>
           </div>
+          <!--end::Meta Stack & Stats-->
         </div>
       </div>
     </section>
+    <!--end::Featured Project Section-->
 
-    <!-- ============================================================
-         PROJECTS
-         ============================================================ -->
+    <!--begin::Projects Section-->
     <section id="projects" class="section">
       <div class="container">
+        <!--begin::Section Head-->
         <div class="section-head reveal">
-          <span class="chip">04 · Portfolio</span>
+          <span class="chip">03 · Portfolio</span>
           <h2 class="section-title">Featured <span class="text-gradient">projects</span></h2>
           <p class="section-sub">Real products, real problems — filtered by what you care about.</p>
         </div>
+        <!--end::Section Head-->
 
-        <!-- Filter bar -->
+        <!--begin::Projects Filter-->
         <div id="projectFilters" class="filter-bar reveal" role="group" aria-label="Filter projects"></div>
+        <!--end::Projects Filter-->
 
-        <!-- Grid rendered by main.js -->
+        <!--begin::Projects Grid-->
         <div id="projectsGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10"></div>
+        <!--end::Projects Grid-->
       </div>
     </section>
+    <!--end::Projects Section-->
 
-    <!-- ============================================================
-         SERVICES
-         ============================================================ -->
+    <!--begin::Services Section-->
     <section id="services" class="section bg-white/60 dark:bg-white/[0.02]">
       <div class="container">
+        <!--begin::Section Head-->
         <div class="section-head reveal">
-          <span class="chip">05 · Services</span>
+          <span class="chip">04 · Services</span>
           <h2 class="section-title">What I can <span class="text-gradient">build for you</span></h2>
           <p class="section-sub">End-to-end backend services — from database design to deployment.</p>
         </div>
+        <!--end::Section Head-->
 
+        <!--begin::Services Grid-->
         <div id="servicesGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           <article class="service-card glass">
-            <span class="mini-card-icon text-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 13 9 5 9-5"/></svg></span>
+            <span class="mini-card-icon text-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m12 3 9 5-9 5-9-5 9-5Z" />
+                <path d="m3 13 9 5 9-5" />
+              </svg></span>
             <h3 class="service-title">Laravel Development</h3>
             <p class="service-text">Custom Laravel apps with clean architecture and maintainable codebases.</p>
           </article>
           <article class="service-card glass">
-            <span class="mini-card-icon text-secondary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5v14"/></svg></span>
+            <span class="mini-card-icon text-secondary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round">
+                <path d="M5 12h14M12 5v14" />
+              </svg></span>
             <h3 class="service-title">REST API Development</h3>
             <p class="service-text">Secure, versioned and documented APIs for web, mobile and third-party apps.</p>
           </article>
           <article class="service-card glass">
-            <span class="mini-card-icon text-accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 5 3.4 8 8 9 4.6-1 8-4 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+            <span class="mini-card-icon text-accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3 4 6v6c0 5 3.4 8 8 9 4.6-1 8-4 8-9V6l-8-3Z" />
+                <path d="m9 12 2 2 4-4" />
+              </svg></span>
             <h3 class="service-title">Backend Architecture</h3>
             <p class="service-text">Scalable service-oriented designs with events, queues and caching.</p>
           </article>
           <article class="service-card glass">
-            <span class="mini-card-icon text-warning"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></span>
+            <span class="mini-card-icon text-warning"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round">
+                <ellipse cx="12" cy="5" rx="8" ry="3" />
+                <path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3" />
+              </svg></span>
             <h3 class="service-title">Database Design</h3>
             <p class="service-text">Normalised schemas, migrations, indexes and query optimisation.</p>
           </article>
           <article class="service-card glass">
-            <span class="mini-card-icon text-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="m2 10 10 5 10-5"/></svg></span>
+            <span class="mini-card-icon text-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="5" width="20" height="14" rx="2" />
+                <path d="m2 10 10 5 10-5" />
+              </svg></span>
             <h3 class="service-title">Payment Integration</h3>
             <p class="service-text">Stripe, PayPal &amp; bKash with secure webhooks and subscription billing.</p>
           </article>
           <article class="service-card glass">
-            <span class="mini-card-icon text-secondary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span>
+            <span class="mini-card-icon text-secondary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" />
+                <path d="M16 2v4M8 2v4M3 10h18" />
+              </svg></span>
             <h3 class="service-title">Google Calendar API</h3>
             <p class="service-text">Meeting schedulers and booking flows powered by Google Calendar.</p>
           </article>
           <article class="service-card glass">
-            <span class="mini-card-icon text-accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z"/><circle cx="12" cy="12" r="3"/><path d="M12 5v3m0 8v3"/></svg></span>
+            <span class="mini-card-icon text-accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z" />
+                <circle cx="12" cy="12" r="3" />
+                <path d="M12 5v3m0 8v3" />
+              </svg></span>
             <h3 class="service-title">Authentication</h3>
             <p class="service-text">Sanctum, Passport, OAuth, JWT, 2FA and role-based access control.</p>
           </article>
           <article class="service-card glass">
-            <span class="mini-card-icon text-success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg></span>
+            <span class="mini-card-icon text-success"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="9" rx="1.5" />
+                <rect x="14" y="3" width="7" height="5" rx="1.5" />
+                <rect x="14" y="12" width="7" height="9" rx="1.5" />
+                <rect x="3" y="16" width="7" height="5" rx="1.5" />
+              </svg></span>
             <h3 class="service-title">Admin Dashboard</h3>
             <p class="service-text">Powerful admin panels with analytics, roles and real-time updates.</p>
           </article>
           <article class="service-card glass">
-            <span class="mini-card-icon text-warning"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8Z"/></svg></span>
+            <span class="mini-card-icon text-warning"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M13 2 3 14h9l-1 8 10-12h-9l1-8Z" />
+              </svg></span>
             <h3 class="service-title">Performance Optimisation</h3>
             <p class="service-text">Caching, N+1 fixes, indexing and profiling for faster backends.</p>
           </article>
           <article class="service-card glass">
-            <span class="mini-card-icon text-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg></span>
+            <span class="mini-card-icon text-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" />
+              </svg></span>
             <h3 class="service-title">Server Deployment</h3>
             <p class="service-text">Docker, Forge, AWS &amp; DigitalOcean with CI/CD pipelines.</p>
           </article>
           <article class="service-card glass">
-            <span class="mini-card-icon text-secondary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
+            <span class="mini-card-icon text-secondary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+              </svg></span>
             <h3 class="service-title">Maintenance &amp; Support</h3>
             <p class="service-text">Bug fixes, upgrades, monitoring and long-term care plans.</p>
           </article>
@@ -711,112 +788,167 @@
             <a href="#contact" class="btn btn-primary mt-4 w-full justify-center">Start a Project</a>
           </article>
         </div>
+        <!--end::Services Grid-->
       </div>
     </section>
+    <!--end::Services Section-->
 
-    <!-- ============================================================
-         BLOG
-         ============================================================ -->
+    <!--begin::Blog Section-->
     <section id="blog" class="section bg-white/60 dark:bg-white/[0.02]">
       <div class="container">
+        <!--begin::Section Head-->
         <div class="section-head reveal">
-          <span class="chip">06 · Blog</span>
+          <span class="chip">05 · Blog</span>
           <h2 class="section-title">Latest <span class="text-gradient">articles</span></h2>
           <p class="section-sub">Notes on Laravel, APIs and scaling backends — written while building.</p>
         </div>
+        <!--end::Section Head-->
 
+        <!--begin::Blog Grid-->
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <article class="blog-card glass reveal">
-            <a href="#blog" class="blog-thumb bg-gradient-to-br from-primary/25 to-secondary/25" aria-label="Read: Scaling Laravel Queues with Redis & Supervisor">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-8 h-8 text-primary"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm4 12H8v-2h8v2Zm0-4H8V8h8v2Z"/></svg>
+            <a href="#blog" class="blog-thumb bg-gradient-to-br from-primary/25 to-secondary/25"
+              aria-label="Read: Scaling Laravel Queues with Redis & Supervisor">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+                class="w-8 h-8 text-primary">
+                <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm4 12H8v-2h8v2Zm0-4H8V8h8v2Z" />
+              </svg>
             </a>
             <div class="p-5">
               <div class="flex items-center gap-2 text-xs">
                 <span class="chip !px-2.5 !py-1">Laravel</span>
                 <span class="text-slate-400">· 5 min read</span>
               </div>
-              <h3 class="blog-title"><a href="#blog" class="hover:text-primary transition-colors">Scaling Laravel Queues with Redis &amp; Supervisor</a></h3>
-              <p class="blog-excerpt">How I moved a failing cron-heavy app to Redis queues with worker retries, rate limiting and zero lost jobs.</p>
+              <h3 class="blog-title"><a href="#blog" class="hover:text-primary transition-colors">Scaling Laravel Queues
+                  with Redis &amp; Supervisor</a></h3>
+              <p class="blog-excerpt">How I moved a failing cron-heavy app to Redis queues with worker retries, rate
+                limiting and zero lost jobs.</p>
               <a href="#blog" class="blog-link">Read article →</a>
             </div>
           </article>
 
           <article class="blog-card glass reveal reveal-2">
-            <a href="#blog" class="blog-thumb bg-gradient-to-br from-secondary/25 to-accent/25" aria-label="Read: Secure JWT Authentication in Laravel APIs">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-8 h-8 text-secondary"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <a href="#blog" class="blog-thumb bg-gradient-to-br from-secondary/25 to-accent/25"
+              aria-label="Read: Secure JWT Authentication in Laravel APIs">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+                class="w-8 h-8 text-secondary">
+                <rect x="3" y="11" width="18" height="11" rx="2" />
+                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+              </svg>
             </a>
             <div class="p-5">
               <div class="flex items-center gap-2 text-xs">
                 <span class="chip !px-2.5 !py-1">API</span>
                 <span class="text-slate-400">· 7 min read</span>
               </div>
-              <h3 class="blog-title"><a href="#blog" class="hover:text-primary transition-colors">Secure JWT Authentication in Laravel APIs</a></h3>
-              <p class="blog-excerpt">A practical guide to access &amp; refresh tokens, blacklists, and protecting routes with middleware.</p>
+              <h3 class="blog-title"><a href="#blog" class="hover:text-primary transition-colors">Secure JWT
+                  Authentication in Laravel APIs</a></h3>
+              <p class="blog-excerpt">A practical guide to access &amp; refresh tokens, blacklists, and protecting
+                routes with middleware.</p>
               <a href="#blog" class="blog-link">Read article →</a>
             </div>
           </article>
 
           <article class="blog-card glass reveal reveal-3">
-            <a href="#blog" class="blog-thumb bg-gradient-to-br from-accent/25 to-success/25" aria-label="Read: Redis vs Database Caching">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-8 h-8 text-accent"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8Z"/></svg>
+            <a href="#blog" class="blog-thumb bg-gradient-to-br from-accent/25 to-success/25"
+              aria-label="Read: Redis vs Database Caching">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-8 h-8 text-accent">
+                <path d="M13 2 3 14h9l-1 8 10-12h-9l1-8Z" />
+              </svg>
             </a>
             <div class="p-5">
               <div class="flex items-center gap-2 text-xs">
                 <span class="chip !px-2.5 !py-1">Performance</span>
                 <span class="text-slate-400">· 6 min read</span>
               </div>
-              <h3 class="blog-title"><a href="#blog" class="hover:text-primary transition-colors">Redis vs Database Caching: When to Use What</a></h3>
-              <p class="blog-excerpt">Decision framework for cache strategies — full-page, query, and invalidation patterns in Laravel.</p>
+              <h3 class="blog-title"><a href="#blog" class="hover:text-primary transition-colors">Redis vs Database
+                  Caching: When to Use What</a></h3>
+              <p class="blog-excerpt">Decision framework for cache strategies — full-page, query, and invalidation
+                patterns in Laravel.</p>
               <a href="#blog" class="blog-link">Read article →</a>
             </div>
           </article>
         </div>
+        <!--end::Blog Grid-->
       </div>
     </section>
+    <!--end::Blog Section-->
 
-    <!-- ============================================================
-         CONTACT
-         ============================================================ -->
+    <!--begin::Contact Section-->
     <section id="contact" class="section">
       <div class="container">
+        <!--begin::Section Head-->
         <div class="section-head reveal">
-          <span class="chip">07 · Contact</span>
+          <span class="chip">06 · Contact</span>
           <h2 class="section-title">Let's build something <span class="text-gradient">great together</span></h2>
           <p class="section-sub">Have a project in mind? Send a message — I usually reply within 24 hours.</p>
         </div>
+        <!--end::Section Head-->
 
         <div class="grid lg:grid-cols-5 gap-10">
-          <!-- Info -->
+          <!--begin::Contact Info Left-->
           <div class="lg:col-span-2 space-y-4 reveal">
             <a href="mailto:hello@tomasuddin.dev" class="contact-card glass">
-              <span class="mini-card-icon text-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span>
-              <div><p class="contact-label">Email</p><p class="contact-value">hello@tomasuddin.dev</p></div>
+              <span class="mini-card-icon text-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="4" width="20" height="16" rx="2" />
+                  <path d="m22 7-10 6L2 7" />
+                </svg></span>
+              <div>
+                <p class="contact-label">Email</p>
+                <p class="contact-value">hello@tomasuddin.dev</p>
+              </div>
             </a>
             <div class="contact-card glass">
-              <span class="mini-card-icon text-secondary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
-              <div><p class="contact-label">Location</p><p class="contact-value">Dhaka, Bangladesh</p></div>
+              <span class="mini-card-icon text-secondary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg></span>
+              <div>
+                <p class="contact-label">Location</p>
+                <p class="contact-value">Dhaka, Bangladesh</p>
+              </div>
             </div>
             <div class="glass rounded-3xl p-6">
               <p class="contact-label mb-3">Follow me</p>
               <div class="flex gap-3">
-                <a href="https://github.com/yourname" target="_blank" rel="noopener" class="icon-btn" aria-label="GitHub">
-                  <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.9 10.9c.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17.2 5.6 18.2 5.9 18.2 5.9c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.6.8.5A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+                <a href="https://github.com/yourname" target="_blank" rel="noopener" class="icon-btn"
+                  aria-label="GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                    <path
+                      d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.9 10.9c.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17.2 5.6 18.2 5.9 18.2 5.9c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.6.8.5A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z" />
+                  </svg>
                 </a>
-                <a href="https://linkedin.com/in/yourname" target="_blank" rel="noopener" class="icon-btn" aria-label="LinkedIn">
-                  <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.55V9h3.57v11.45Z"/></svg>
+                <a href="https://linkedin.com/in/yourname" target="_blank" rel="noopener" class="icon-btn"
+                  aria-label="LinkedIn">
+                  <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                    <path
+                      d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.55V9h3.57v11.45Z" />
+                  </svg>
                 </a>
                 <a href="mailto:hello@tomasuddin.dev" class="icon-btn" aria-label="Email">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" class="w-5 h-5">
+                    <rect x="2" y="4" width="20" height="16" rx="2" />
+                    <path d="m22 7-10 6L2 7" />
+                  </svg>
                 </a>
-                <a href="https://wa.me/8801XXXXXXXXX" target="_blank" rel="noopener" class="icon-btn" aria-label="WhatsApp">
-                  <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm5.4 14.1c-.2.6-1.3 1.2-1.8 1.3-.5 0-1 .2-3.4-.7-2.9-1.2-4.7-4.1-4.9-4.3-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5s.8 1.9.8 2c.1.1.1.3 0 .5-.3.6-.7.9-.5 1.2.7 1.2 1.6 2 2.7 2.6.3.2.5.1.7-.1l1-1.1c.2-.3.4-.2.7-.1l2.3 1.1c.3.1.5.2.6.4 0 .1 0 .8-.3 1.4Z"/></svg>
+                <a href="https://wa.me/8801XXXXXXXXX" target="_blank" rel="noopener" class="icon-btn"
+                  aria-label="WhatsApp">
+                  <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                    <path
+                      d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm5.4 14.1c-.2.6-1.3 1.2-1.8 1.3-.5 0-1 .2-3.4-.7-2.9-1.2-4.7-4.1-4.9-4.3-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5s.8 1.9.8 2c.1.1.1.3 0 .5-.3.6-.7.9-.5 1.2.7 1.2 1.6 2 2.7 2.6.3.2.5.1.7-.1l1-1.1c.2-.3.4-.2.7-.1l2.3 1.1c.3.1.5.2.6.4 0 .1 0 .8-.3 1.4Z" />
+                  </svg>
                 </a>
               </div>
-              <p class="mt-4 text-sm text-slate-500 dark:text-slate-400">Available Mon–Sat, 10:00 – 20:00 (BST). Prefer async? Email works too.</p>
+              <p class="mt-4 text-sm text-slate-500 dark:text-slate-400">Available Mon–Sat, 10:00 – 20:00 (BST). Prefer
+                async? Email works too.</p>
             </div>
           </div>
+          <!--end::Contact Info Left-->
 
-          <!-- Form -->
+          <!--begin::Contact Form Right-->
           <div class="lg:col-span-3 reveal reveal-2">
             <form id="contactForm" class="glass rounded-3xl p-6 sm:p-8 gradient-border" novalidate>
               <div class="grid sm:grid-cols-2 gap-5">
@@ -827,7 +959,8 @@
                 </div>
                 <div class="field">
                   <label for="cf-email">Email</label>
-                  <input id="cf-email" name="email" type="email" placeholder="john@example.com" autocomplete="email" required />
+                  <input id="cf-email" name="email" type="email" placeholder="john@example.com" autocomplete="email"
+                    required />
                   <p class="field-error" id="cf-email-error"></p>
                 </div>
               </div>
@@ -838,48 +971,73 @@
               </div>
               <div class="field mt-5">
                 <label for="cf-message">Message</label>
-                <textarea id="cf-message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                <textarea id="cf-message" name="message" rows="5" placeholder="Tell me about your project..."
+                  required></textarea>
                 <p class="field-error" id="cf-message-error"></p>
               </div>
 
               <button type="submit" class="btn btn-primary w-full justify-center mt-6">
                 Send Message
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon"><path d="m22 2-7 20-4-9-9-4 20-7Z"/><path d="M22 2 11 13"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" class="btn-icon">
+                  <path d="m22 2-7 20-4-9-9-4 20-7Z" />
+                  <path d="M22 2 11 13" />
+                </svg>
               </button>
               <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
             </form>
 
             <!-- Success panel (shown via JS when the form is submitted) -->
             <div id="formSuccess" class="form-success" hidden>
-              <span class="success-check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg></span>
+              <span class="success-check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m5 13 4 4L19 7" />
+                </svg></span>
               <h3 class="font-display font-semibold text-lg text-slate-900 dark:text-white">Message sent!</h3>
               <p class="text-sm mt-1">Thanks for reaching out. I'll get back to you within 24 hours.</p>
               <button type="button" id="resetForm" class="btn btn-ghost mt-5">Send another message</button>
             </div>
           </div>
+          <!--end::Contact Form Right-->
         </div>
       </div>
     </section>
+    <!--end::Contact Section-->
   </main>
 
-  <!-- ============================================================
-       FOOTER
-       ============================================================ -->
+  <!--begin::Footer-->
   <footer class="footer">
     <div class="container">
       <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 py-14">
         <div>
           <a href="#home" class="logo mb-4">
             <span class="logo-mark" aria-hidden="true">
-              <svg viewBox="0 0 32 32" fill="none"><path d="M8 9h16M8 16h10M8 23h13" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+              <svg viewBox="0 0 32 32" fill="none">
+                <path d="M8 9h16M8 16h10M8 23h13" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+              </svg>
             </span>
-            <span class="font-display font-bold text-slate-900 dark:text-white">Tomas<span class="text-primary"> Uddin</span></span>
+            <span class="font-display font-bold text-slate-900 dark:text-white">Tomas<span class="text-primary">
+                Uddin</span></span>
           </a>
-          <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">Laravel Backend Developer building fast, secure and scalable APIs &amp; platforms from Dhaka, Bangladesh.</p>
+          <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">Laravel Backend Developer building fast,
+            secure and scalable APIs &amp; platforms from Dhaka, Bangladesh.</p>
           <div class="flex gap-3 mt-5">
-            <a href="https://github.com/yourname" target="_blank" rel="noopener" class="icon-btn" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.9 10.9c.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17.2 5.6 18.2 5.9 18.2 5.9c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.6.8.5A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg></a>
-            <a href="https://linkedin.com/in/yourname" target="_blank" rel="noopener" class="icon-btn" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.55V9h3.57v11.45Z"/></svg></a>
-            <a href="mailto:hello@tomasuddin.dev" class="icon-btn" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></a>
+            <a href="https://github.com/yourname" target="_blank" rel="noopener" class="icon-btn"
+              aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
+                <path
+                  d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.9 10.9c.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17.2 5.6 18.2 5.9 18.2 5.9c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.6.8.5A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z" />
+              </svg></a>
+            <a href="https://linkedin.com/in/yourname" target="_blank" rel="noopener" class="icon-btn"
+              aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
+                <path
+                  d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.55V9h3.57v11.45Z" />
+              </svg></a>
+            <a href="mailto:hello@tomasuddin.dev" class="icon-btn" aria-label="Email"><svg viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="w-4 h-4">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <path d="m22 7-10 6L2 7" />
+              </svg></a>
           </div>
         </div>
 
@@ -887,7 +1045,6 @@
           <h4 class="footer-title">Quick Links</h4>
           <ul class="footer-links">
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -921,14 +1078,19 @@
 
       <div class="footer-bottom">
         <p>© <span id="year">2026</span> MD. Tomas Uddin. All rights reserved.</p>
-        <p>Designed &amp; built with <span class="text-primary" aria-hidden="true">♥</span> using HTML · Tailwind CSS · Vanilla JS</p>
+        <p>Designed &amp; built with <span class="text-primary" aria-hidden="true">♥</span> using HTML · Tailwind CSS ·
+          Vanilla JS</p>
       </div>
     </div>
   </footer>
+  <!--end::Footer-->
 
   <!-- Back to top -->
   <button id="backToTop" class="back-to-top" aria-label="Back to top">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path d="m18 15-6-6-6 6" />
+    </svg>
   </button>
 
   <!-- JSON-LD structured data -->
@@ -939,7 +1101,7 @@
     "name": "MD. Tomas Uddin",
     "url": "https://tomasuddin.dev",
     "image": "assets/images/avatar.svg",
-    "jobTitle": "Laravel Backend Developer",
+    "jobTitle": "Senior Laravel & Backend Architect",
     "email": "mailto:hello@tomasuddin.dev",
     "address": { "@type": "PostalAddress", "addressLocality": "Dhaka", "addressCountry": "BD" },
     "alumniOf": [
@@ -955,4 +1117,5 @@
   <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
+
 </html>
