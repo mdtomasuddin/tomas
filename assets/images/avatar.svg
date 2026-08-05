@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E1B4B"/>
+      <stop offset="0.5" stop-color="#312E81"/>
+      <stop offset="1" stop-color="#0E7490"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF2D20"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#06B6D4" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="480" fill="url(#bg)"/>
+  <rect width="400" height="480" fill="url(#grid)"/>
+  <circle cx="200" cy="215" r="175" fill="url(#glow)"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="175" r="58" fill="#E2E8F0"/>
+  <circle cx="200" cy="175" r="52" fill="#CBD5E1"/>
+  <!-- Shoulders / body -->
+  <path d="M92 480 C 96 385 140 335 200 335 C 260 335 304 385 308 480 Z" fill="#E2E8F0"/>
+  <path d="M120 480 C 124 405 156 368 200 368 C 244 368 276 405 280 480 Z" fill="#94A3B8" opacity="0.55"/>
+
+  <!-- Decorative ring -->
+  <circle cx="200" cy="175" r="128" fill="none" stroke="url(#acc)" stroke-width="3" stroke-dasharray="10 14" opacity="0.7"/>
+  <circle cx="200" cy="175" r="140" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1.5"/>
+
+  <!-- Badge dot -->
+  <circle cx="243" cy="131" r="17" fill="#10B981"/>
+  <circle cx="243" cy="131" r="10" fill="#ffffff" opacity="0.95"/>
+  <path d="M238 131 l4.5 4.5 L250 126" fill="none" stroke="#10B981" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -15,6 +15,7 @@ full dark/light theming, and complete accessibility & SEO support.
 
 - **Advanced Dark / Light mode** — auto-detects system theme, manual toggle, saved in `localStorage`
 - **Sticky glass navbar** — scroll-spy active links, animated mobile menu, theme toggle
+- **Lenis smooth scrolling** — buttery inertia-based scrolling, smooth anchor navigation & back-to-top
 - **Hero section** — animated typing text, floating Laravel icon & code snippet cards, animated counters,
   availability badge, CTA buttons (Download Resume, Hire Me, Schedule Meeting, GitHub, LinkedIn, Email)
 - **Tech marquee** — infinite scrolling technology strip
@@ -25,7 +26,6 @@ full dark/light theming, and complete accessibility & SEO support.
 - **Featured project** — FaceVerify case study with architecture diagram & metrics
 - **Projects** — 9 cards with **live filtering** across 10 categories
 - **Services** — 11 service cards + project CTA
-- **Testimonials** — auto-playing glass slider with dots & arrows
 - **Blog preview** — 3 featured articles
 - **Contact form** — live validation, error states, success animation
 - **Micro-interactions** — ripple buttons, custom cursor glow, hover lifts, scroll reveal,
@@ -33,7 +33,7 @@ full dark/light theming, and complete accessibility & SEO support.
 
 ## 🚀 Getting Started
 
-No build step required. Either:
+No build step required (Tailwind & Lenis load from CDNs, so an internet connection is needed). Either:
 
 ```bash
 # Option A — just open it
@@ -58,7 +58,6 @@ node serve.js 8080
 | Resume PDF      | Drop your PDF at `assets/files/resume.pdf` (button already links there) |
 | Skills / levels | `SKILL_GROUPS` array in `assets/js/main.js`                   |
 | Projects        | `projects` array in `assets/js/main.js` (title, category, emoji, status…) |
-| Testimonials    | `testimonials` array in `assets/js/main.js`                   |
 | Typing words    | `words` array in `assets/js/main.js`                          |
 | Experience      | Timeline markup in `index.html` (#experience section)         |
 | Photo           | Replace `assets/images/avatar.svg` with your photo            |
