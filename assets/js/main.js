@@ -206,7 +206,7 @@
     const el = $('#typedText');
     if (!el) return;
 
-    const words = ['Jr.Laravel Developer', 'Laravel Developer'];
+    const words = ['Laravel Backend Developer', 'REST API Architect', 'Full-Stack PHP Engineer'];
     if (reducedMotion) { el.textContent = words[0]; return; }
 
     let wordIndex = 0;
@@ -298,41 +298,42 @@
       {
         title: 'Backend Ecosystem',
         items: [
-          { name: 'Laravel', desc: 'Advanced Framework', icon: '<img src="https://img.icons8.com/?size=100&id=hUvxmdu7Rloj&format=png&color=000000" alt="Laravel" class="w-6 h-6 object-contain dark:invert inline-block" />' },
-          { name: 'PHP', desc: 'Modern PHP 8+', icon: '🐘' },
-          { name: 'MySQL', desc: 'Database Optimization', icon: '🗄️' },
-          { name: 'REST API', desc: 'Scalable Architecture', icon: '🔌' },
+          { name: 'Laravel', desc: 'Advanced Framework', icon: '<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg" alt="Laravel" class="w-8 h-8 object-contain inline-block" />' },
+          { name: 'PHP', desc: 'Backend & OOP Architecture', icon: '<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" class="w-8 h-8 object-contain inline-block" />' },
+          { name: 'MySQL', desc: 'Database Optimization', icon: '<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" class="w-8 h-8 object-contain inline-block" />' },
+          { name: 'Redis', desc: 'Caching & Queue Processing', icon: '<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" alt="Redis" class="w-8 h-8 object-contain inline-block" />' },
+          { name: 'REST API', desc: 'Scalable Architecture', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8 text-primary"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>' },
         ],
       },
       {
         title: 'Packages & Integrations',
         items: [
-          { name: 'Stripe', desc: 'Payment & Subscriptions', icon: '💳' },
-          { name: 'PayPal', desc: 'Global Checkout Integration', icon: '💰' },
-          { name: 'Printify', desc: 'Print-on-Demand API', icon: '👕' },
-          { name: 'Google APIs', desc: 'OAuth & Calendar Sync', icon: '📅' },
+          { name: 'Stripe', desc: 'Payment & Subscriptions', icon: '<svg viewBox="0 0 32 32" class="w-8 h-8 inline-block"><rect width="32" height="32" rx="7" fill="#635BFF"/><path d="M14.9 12.8c-1.3-.5-2-.9-2-1.5 0-.5.5-.9 1.4-.9 1.2 0 2.4.4 3.3 1l.7-2.9C17.2 8.1 15.8 7.8 14.3 7.8c-3.2 0-5.4 1.7-5.4 4.5 0 3 2.7 3.7 5 4.5 1.7.6 2.2 1.1 2.2 1.8 0 .7-.7 1.1-1.8 1.1-1.5 0-3-.6-4.1-1.4l-.8 2.9c1.3.8 3 1.2 4.9 1.2 3.4 0 5.6-1.6 5.6-4.6-.1-3-2.6-3.8-5-4.6z" fill="#FFF"/></svg>' },
+          { name: 'RevenueCat', desc: 'In-App Subscriptions & IAP', icon: '<img src="https://cdn.simpleicons.org/revenuecat/FF4B4B" alt="RevenueCat" class="w-8 h-8 object-contain inline-block" />' },
+          { name: 'Printify', desc: 'Print-on-Demand API', icon: '<svg viewBox="0 0 24 24" fill="#27AB83" class="w-8 h-8 inline-block"><path d="M12 0L7.547 8.878 0 12l7.547 3.123L12 24l4.453-8.877L24 12l-7.547-3.122Z"/></svg>' },
+          { name: 'Google APIs', desc: 'Google Workspace & OAuth', icon: '<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/google/google-original.svg" alt="Google APIs" class="w-8 h-8 object-contain inline-block" />' },
+          { name: 'AI Models', desc: 'OpenAI, Gemini & LLMs', icon: '<svg viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 text-slate-800 dark:text-white inline-block"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0806 4.7992-2.7682a.798.798 0 0 0 .3992-.693v-6.7607l2.0304 1.1717a.071.071 0 0 1 .038.052v5.5824a4.504 4.504 0 0 1-4.5323 4.537zm-9.3364-4.8344a4.4755 4.4755 0 0 1-.535-3.0037l.142.0854 4.7944 2.7682a.798.798 0 0 0 .7984 0l5.857-3.3768v2.3434a.071.071 0 0 1-.0332.0617L9.57 21.054a4.504 4.504 0 0 1-5.6465-3.4593zm-1.1274-10.426a4.4707 4.4707 0 0 1 2.3414-1.968l-.0048.1634V10.93a.798.798 0 0 0 .3992.693l5.857 3.3768-2.0304 1.1717a.071.071 0 0 1-.0664.0048L3.633 13.6262a4.504 4.504 0 0 1-1.127-5.0615zM17.472 10.93l-5.857-3.3768 2.0304-1.1717a.071.071 0 0 1 .0664-.0048l4.887 2.8226a4.504 4.504 0 0 1-.7267 8.0652v-5.5824a.798.798 0 0 0-.3992-.693zm2.4646-3.0854l-.1419-.0854-4.7992-2.7682a.798.798 0 0 0-.7984 0L8.34 8.3682V6.0248a.071.071 0 0 1 .0332-.0617l4.887-2.8226a4.504 4.504 0 0 1 6.6764 4.7041zM9.011 14.54l-2.0304-1.1717a.071.071 0 0 1-.038-.052V7.7339a4.504 4.504 0 0 1 7.4087-3.4962l-.1419.0806-4.7992 2.7682a.798.798 0 0 0-.3992.693v6.7607z"/></svg>' },
+          { name: 'Social & Auth', desc: 'Socialite, Sanctum, JWT & OAuth', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8 text-primary inline-block"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/><circle cx="12" cy="16" r="1"/></svg>' },
         ],
       },
       {
         title: 'Frontend Ecosystem',
         items: [
-          { name: 'React.js', desc: 'Component Library', icon: '⚛️' },
-          { name: 'Vue.js', desc: 'Progressive Framework', icon: '💚' },
-          { name: 'Tailwind CSS', desc: 'Modern Styling', icon: '🎨' },
-          { name: 'JavaScript', desc: 'ES6+ Core Engine', icon: '💻' },
-          { name: 'HTML5 & CSS3', desc: 'Responsive Web Design', icon: '🌐' },
+          { name: 'React.js', desc: 'Component Library', icon: '<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React.js" class="w-8 h-8 object-contain inline-block" />' },
+          { name: 'Vue.js', desc: 'Progressive Framework', icon: '<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="Vue.js" class="w-8 h-8 object-contain inline-block" />' },
+          { name: 'Tailwind CSS', desc: 'Modern Styling', icon: '<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" class="w-8 h-8 object-contain inline-block" />' },
+          { name: 'JavaScript', desc: 'ES6+ Core Engine', icon: '<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-8 h-8 object-contain inline-block" />' },
+          { name: 'HTML5 & CSS3', desc: 'Responsive Web Design', icon: '<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" class="w-8 h-8 object-contain inline-block" />' },
         ],
       },
       {
         title: 'DevOps & Tools',
         items: [
-          { name: 'Postman', desc: 'API Testing & Specs', icon: '🚀' },
-          { name: 'Notion', desc: 'Docs & Task Workspace', icon: '📝' },
-          { name: 'Docker', desc: 'Containerization', icon: '🐳' },
-          { name: 'Git & GitHub', desc: 'Version Control', icon: '📦' },
-          { name: 'AWS', desc: 'EC2, S3, RDS, Deployment', icon: '☁️' },
-          { name: 'Azure', desc: 'Cloud Services & Hosting', icon: '🔷' },
-          { name: 'CI/CD', desc: 'Automated Deployment', icon: '🔄' },
+          { name: 'Postman', desc: 'API Testing & Specs', icon: '<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" alt="Postman" class="w-8 h-8 object-contain inline-block" />' },
+          { name: 'Git & CI/CD', desc: 'Version Control & Auto Deployment', icon: '<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git & CI/CD" class="w-8 h-8 object-contain inline-block" />' },
+          { name: 'Hostinger & GoDaddy', desc: 'Basic Server & Hosting Setup', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8 text-accent inline-block"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>' },
+          { name: 'Notion', desc: 'Docs & Task Workspace', icon: '<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/notion/notion-original.svg" alt="Notion" class="w-8 h-8 object-contain dark:invert inline-block" />' },
+          { name: 'Docker', desc: 'Containerization', icon: '<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" class="w-8 h-8 object-contain inline-block" />' },
         ],
       },
     ];
@@ -361,159 +362,56 @@
   /* ---------- 11. Projects ---------- */
   (function initProjects() {
     const grid = $('#projectsGrid');
-    const filterBar = $('#projectFilters');
-    if (!grid || !filterBar) return;
-
-    // Categories (also drives the filter buttons)
-    const categories = [
-      'Laravel', 'API', 'Dashboard', 'SaaS', 'Ecommerce', 'Mobile Backend',
-      'Booking System', 'Payment', 'Calendar', 'Face Verification',
-    ];
+    if (!grid) return;
 
     const projects = [
       {
         title: 'Multi-Vendor E-Commerce Marketplace',
-        cat: ['Ecommerce', 'Laravel', 'Payment'],
-        emoji: '🛒',
         grad: 'from-primary/25 via-secondary/20 to-accent/25',
-        status: 'Live', st: 'st-live',
-        desc: 'A full marketplace where vendors manage stores, inventory and payouts while customers enjoy one-click checkout.',
-        features: ['Vendor wallets & automated payouts', 'Stripe + bKash checkout', 'Redis-powered cart & search'],
+        status: 'Production', st: 'st-prod',
+        desc: 'A full-scale marketplace where vendors manage inventory, orders and payouts while customers enjoy multi-gateway checkout.',
+        features: ['Vendor wallets & automated payouts', 'Stripe & bKash payment checkout', 'Redis-powered fast cart & caching'],
         tech: ['Laravel 11', 'MySQL', 'Redis', 'Stripe'],
       },
       {
-        title: 'Multi-Tenant SaaS Starter Kit',
-        cat: ['SaaS', 'Laravel'],
-        emoji: '🚀',
+        title: 'Mobile App Backend & Banking REST API',
+        grad: 'from-accent/25 via-secondary/20 to-primary/25',
+        status: 'Live', st: 'st-live',
+        desc: 'High-performance REST API layer powering mobile applications with secure authentication, KYC, and real-time transaction processing.',
+        features: ['Sanctum & JWT token rotation', 'High-throughput endpoint optimization', 'Automated webhooks & notifications'],
+        tech: ['Laravel', 'REST API', 'Sanctum / JWT', 'MySQL', 'Redis'],
+      },
+      {
+        title: 'Multi-Tenant SaaS Platform Starter',
         grad: 'from-secondary/25 via-accent/20 to-success/25',
-        status: 'In Development', st: 'st-dev',
-        desc: 'A rock-solid base for SaaS products: tenant isolation, billing, roles and feature flags out of the box.',
-        features: ['Single-database multi-tenancy', 'Subscription billing & invoices', 'Team roles & permissions'],
+        status: 'Production', st: 'st-prod',
+        desc: 'Scalable SaaS foundation featuring single-database multi-tenancy, subscription management, roles, and automated billing.',
+        features: ['Tenant database isolation', 'Stripe subscription billing & invoices', 'Role-based access control (RBAC)'],
         tech: ['Laravel', 'PostgreSQL', 'Stripe', 'Docker'],
       },
-      {
-        title: 'Clinic Appointment Booking System',
-        cat: ['Booking System', 'Laravel'],
-        emoji: '🏥',
-        grad: 'from-success/25 via-primary/20 to-secondary/25',
-        status: 'Live', st: 'st-live',
-        desc: 'Patients book doctors in real time; clinics manage schedules, reminders and reports from one dashboard.',
-        features: ['Slot-based scheduling with conflicts', 'SMS & email reminders', 'Doctor availability APIs'],
-        tech: ['Laravel', 'MySQL', 'Twilio', 'Nginx'],
-      },
-      {
-        title: 'Mobile Banking REST API',
-        cat: ['Mobile Backend', 'API'],
-        emoji: '📱',
-        grad: 'from-accent/25 via-secondary/20 to-primary/25',
-        status: 'Production', st: 'st-prod',
-        desc: 'The API layer for a fintech app handling transactions, OTPs, KYC and statement generation at scale.',
-        features: ['JWT + OAuth with refresh rotation', '50K+ daily requests, <200ms p95', 'Idempotent transactions'],
-        tech: ['Laravel', 'MySQL', 'Redis', 'AWS'],
-      },
-      {
-        title: 'Real-Time Admin Dashboard',
-        cat: ['Dashboard'],
-        emoji: '📊',
-        grad: 'from-warning/25 via-primary/20 to-accent/25',
-        status: 'Live', st: 'st-live',
-        desc: 'A blazing admin panel with live metrics, role-based access and one-click CSV/Schedule exports.',
-        features: ['Live charts via polling & SSE', 'Granular RBAC with policies', 'Queued report exports'],
-        tech: ['Laravel', 'Vue', 'Chart.js', 'Redis'],
-      },
-      {
-        title: 'Stripe Subscription Billing Engine',
-        cat: ['Payment', 'API'],
-        emoji: '💳',
-        grad: 'from-secondary/25 via-primary/20 to-warning/25',
-        status: 'Completed', st: 'st-done',
-        desc: 'A reusable billing module: plans, trials, proration, dunning emails and webhook-safe ledger updates.',
-        features: ['Checkout & customer portal', 'Webhook event handling', 'Trials, coupons & proration'],
-        tech: ['Laravel', 'Stripe', 'MySQL', 'Horizon'],
-      },
-      {
-        title: 'Google Calendar Meeting Scheduler',
-        cat: ['Calendar', 'API'],
-        emoji: '📅',
-        grad: 'from-primary/25 via-accent/20 to-success/25',
-        status: 'Completed', st: 'st-done',
-        desc: 'Clients pick a free slot and get a Google Meet link auto-created — no back-and-forth emails.',
-        features: ['OAuth with Google Calendar', 'Slots synced in real time', 'Auto Meet link generation'],
-        tech: ['Laravel', 'Google APIs', 'MySQL', 'Queue'],
-      },
-      {
-        title: 'Smart Attendance with Face Verification',
-        cat: ['Face Verification', 'Laravel'],
-        emoji: '😀',
-        grad: 'from-accent/25 via-success/20 to-primary/25',
-        status: 'Production', st: 'st-prod',
-        desc: 'Face-recognition attendance with liveness detection for remote branches, synced to a live dashboard.',
-        features: ['Liveness & anti-spoofing', '99.2% verification accuracy', 'Offline sync for field teams'],
-        tech: ['Laravel', 'REST API', 'Redis', 'Docker'],
-      },
-      {
-        title: 'Inventory Management API',
-        cat: ['API', 'Laravel'],
-        emoji: '📦',
-        grad: 'from-success/25 via-accent/20 to-secondary/25',
-        status: 'In Development', st: 'st-dev',
-        desc: 'A GraphQL-first inventory core: stock levels, movements, barcode scanning and low-stock alerts.',
-        features: ['GraphQL schema & queries', 'Stock movement ledger', 'Low-stock notification jobs'],
-        tech: ['Laravel', 'GraphQL', 'PostgreSQL', 'Lighthouse'],
-      },
     ];
-
-    /* Filters */
-    filterBar.innerHTML = ['All', ...categories]
-      .map((c, i) => `<button type="button" class="filter-btn${i === 0 ? ' active' : ''}" data-filter="${c}"${i === 0 ? ' aria-pressed="true"' : ''}>${c}</button>`)
-      .join('');
 
     /* Cards */
     const card = (p) => `
       <article class="project-card glass">
         <div class="project-thumb bg-gradient-to-br ${p.grad}">
           <span class="project-status ${p.st}">${p.status}</span>
-          <span class="emoji" aria-hidden="true">${p.emoji}</span>
         </div>
         <div class="project-body">
           <h3 class="project-title">${p.title}</h3>
           <p class="project-desc">${p.desc}</p>
-          <div class="project-tags">${p.cat.map((t) => `<span class="p-tag">${t}</span>`).join('')}</div>
           <ul class="project-features">
             ${p.features.map((f) => `<li>${f}</li>`).join('')}
           </ul>
           <div class="project-tech">${p.tech.map((t) => `<span class="p-tag">${t}</span>`).join('')}</div>
           <div class="project-actions">
-            <a href="https://github.com/yourname" target="_blank" rel="noopener" class="p-btn p-btn-ghost" aria-label="View ${p.title} on GitHub">View Code</a>
-            <a href="#contact" class="p-btn p-btn-solid">Live Demo</a>
-            <a href="#featured" class="p-btn p-btn-ghost">Case Study</a>
+            <a href="https://github.com/mdtomasuddin" target="_blank" rel="noopener" class="p-btn p-btn-ghost" aria-label="View ${p.title} on GitHub">View Code</a>
+            <a href="#contact" class="p-btn p-btn-solid">Request Demo</a>
           </div>
         </div>
       </article>`;
 
-    const render = (filter) => {
-      const list = filter === 'All' ? projects : projects.filter((p) => p.cat.includes(filter));
-      grid.innerHTML = list.map(card).join('');
-    };
-
-    filterBar.addEventListener('click', (e) => {
-      const btn = e.target.closest('.filter-btn');
-      if (!btn) return;
-      $$('.filter-btn', filterBar).forEach((b) => {
-        const on = b === btn;
-        b.classList.toggle('active', on);
-        b.setAttribute('aria-pressed', String(on));
-      });
-      render(btn.dataset.filter);
-      // Re-trigger entrance animation
-      $$('.project-card', grid).forEach((c) => {
-        c.classList.remove('pop');
-        void c.offsetWidth;
-        c.classList.add('pop');
-      });
-    });
-
-    render('All');
+    grid.innerHTML = projects.map(card).join('');
   })();
 
 
@@ -605,6 +503,31 @@
         Object.keys(fields).forEach((k) => setError(k, ''));
       });
     }
+
+    /* ---------- Copy to Clipboard ---------- */
+    document.addEventListener('click', (e) => {
+      const btn = e.target.closest('.copy-btn');
+      if (!btn) return;
+      const text = btn.dataset.copy;
+      if (!text) return;
+
+      navigator.clipboard.writeText(text).then(() => {
+        const origTitle = btn.getAttribute('title') || 'Copy';
+        btn.setAttribute('title', 'Copied!');
+        btn.classList.add('text-success');
+
+        const svg = btn.querySelector('svg');
+        if (svg) {
+          svg.style.transform = 'scale(1.25)';
+          setTimeout(() => { svg.style.transform = ''; }, 200);
+        }
+
+        setTimeout(() => {
+          btn.setAttribute('title', origTitle);
+          btn.classList.remove('text-success');
+        }, 2000);
+      }).catch(() => {});
+    });
   })();
 
   /* ---------- 15. Back to top (state handled in module 04) ---------- */

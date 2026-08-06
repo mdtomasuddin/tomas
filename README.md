@@ -1,4 +1,4 @@
-# MD. Tomas Uddin — Laravel Backend Developer Portfolio
+# Md. Tomas Uddin — Laravel Backend Developer Portfolio
 
 A premium, production-ready portfolio built with **HTML5 · Tailwind CSS · Vanilla JavaScript**.
 Designed with a SaaS/enterprise aesthetic — glassmorphism, gradient borders, smooth micro-interactions,
