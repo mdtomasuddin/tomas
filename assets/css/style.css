@@ -354,7 +354,7 @@ footer[id] {
   color: #64748B;
   background: var(--glass-bg);
   border: 1px solid var(--glass-border);
-  transition: transform 0.25s ease, color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  transition: transform 0.25s ease, color 0.25s ease, background 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
   cursor: pointer;
   overflow: hidden;
 }
@@ -365,14 +365,84 @@ footer[id] {
 }
 
 .icon-btn:hover {
-  transform: translateY(-2px);
-  color: var(--primary);
-  border-color: rgba(255, 45, 32, 0.45);
-  box-shadow: var(--shadow-sm);
+  transform: translateY(-3px);
 }
 
 .dark .icon-btn {
   color: #94A3B8;
+}
+
+/* Social Brand Icon Colors */
+.icon-btn-github {
+  color: #24292e;
+  background: rgba(36, 41, 46, 0.08);
+  border-color: rgba(36, 41, 46, 0.2);
+}
+.dark .icon-btn-github {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+.icon-btn-github:hover,
+.dark .icon-btn-github:hover {
+  color: #ffffff !important;
+  background: #24292e !important;
+  border-color: #24292e !important;
+  box-shadow: 0 6px 20px rgba(36, 41, 46, 0.45);
+}
+
+.icon-btn-linkedin {
+  color: #0A66C2;
+  background: rgba(10, 102, 194, 0.12);
+  border-color: rgba(10, 102, 194, 0.28);
+}
+.dark .icon-btn-linkedin {
+  color: #0A66C2;
+  background: rgba(10, 102, 194, 0.18);
+  border-color: rgba(10, 102, 194, 0.35);
+}
+.icon-btn-linkedin:hover,
+.dark .icon-btn-linkedin:hover {
+  color: #ffffff !important;
+  background: #0A66C2 !important;
+  border-color: #0A66C2 !important;
+  box-shadow: 0 6px 20px rgba(10, 102, 194, 0.45);
+}
+
+.icon-btn-facebook {
+  color: #1877F2;
+  background: rgba(24, 119, 242, 0.12);
+  border-color: rgba(24, 119, 242, 0.28);
+}
+.dark .icon-btn-facebook {
+  color: #1877F2;
+  background: rgba(24, 119, 242, 0.18);
+  border-color: rgba(24, 119, 242, 0.35);
+}
+.icon-btn-facebook:hover,
+.dark .icon-btn-facebook:hover {
+  color: #ffffff !important;
+  background: #1877F2 !important;
+  border-color: #1877F2 !important;
+  box-shadow: 0 6px 20px rgba(24, 119, 242, 0.45);
+}
+
+.icon-btn-whatsapp {
+  color: #25D366;
+  background: rgba(37, 211, 102, 0.12);
+  border-color: rgba(37, 211, 102, 0.28);
+}
+.dark .icon-btn-whatsapp {
+  color: #25D366;
+  background: rgba(37, 211, 102, 0.18);
+  border-color: rgba(37, 211, 102, 0.35);
+}
+.icon-btn-whatsapp:hover,
+.dark .icon-btn-whatsapp:hover {
+  color: #ffffff !important;
+  background: #25D366 !important;
+  border-color: #25D366 !important;
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.45);
 }
 
 /* Theme toggle icon swap */
@@ -564,6 +634,15 @@ html.dark .icon-sun {
     display: flex;
     align-items: center;
     gap: 0.2rem;
+  }
+
+  #menuBtn,
+  .mobile-menu,
+  .mobile-menu.open {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
   }
 }
 
@@ -773,9 +852,11 @@ html.dark .icon-sun {
   animation: float 9s ease-in-out infinite;
 }
 
-.float-icon svg {
+.float-icon svg,
+.float-icon img {
   width: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 .float-icon-1 {
@@ -805,19 +886,26 @@ html.dark .icon-sun {
   border-radius: 2rem;
   padding: 10px;
   background: linear-gradient(135deg, rgba(255, 45, 32, 0.55), rgba(79, 70, 229, 0.45), rgba(6, 182, 212, 0.5));
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.3);
 }
 
 .avatar-frame img {
   background: #0F172A;
+  aspect-ratio: 5 / 6;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: calc(2rem - 10px);
+  display: block;
 }
 
 .avatar-glow {
   position: absolute;
-  inset: -36px;
+  inset: -24px;
   z-index: 0;
-  background: radial-gradient(circle at 50% 42%, rgba(79, 70, 229, 0.28), transparent 70%);
-  filter: blur(24px);
+  background: radial-gradient(circle at 50% 50%, rgba(255, 45, 32, 0.35), rgba(79, 70, 229, 0.3), transparent 70%);
+  filter: blur(28px);
+  pointer-events: none;
+  border-radius: 2.5rem;
 }
 
 /* Floating cards */
@@ -876,9 +964,15 @@ html.dark .icon-sun {
   flex: none;
 }
 
-.float-card-icon svg {
+.float-card-icon svg,
+.float-card-icon img {
   width: 19px;
   height: 19px;
+  object-fit: contain;
+}
+
+.dark .float-card-icon img {
+  filter: brightness(0) invert(1);
 }
 
 .float-card-title {

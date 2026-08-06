@@ -1,5 +1,5 @@
 /* ============================================================
-   MD. Tomas Uddin — Portfolio
+   Md. Tomas Uddin — Portfolio
    assets/js/main.js — Vanilla JS, no dependencies
    Modules:
      01. Helpers & state
@@ -141,6 +141,7 @@
     if (!btn || !menu) return;
 
     const setMenu = (open) => {
+      if (open && window.innerWidth >= 1024) open = false;
       btn.classList.toggle('open', open);
       btn.setAttribute('aria-expanded', String(open));
       btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
@@ -205,7 +206,7 @@
     const el = $('#typedText');
     if (!el) return;
 
-    const words = ['Senior Laravel Architect', 'REST API Specialist', 'SaaS Systems Engineer', 'Full-Stack Integrator'];
+    const words = ['Jr.Laravel Developer', 'Laravel Developer'];
     if (reducedMotion) { el.textContent = words[0]; return; }
 
     let wordIndex = 0;
@@ -297,11 +298,10 @@
       {
         title: 'Backend Ecosystem',
         items: [
-          { name: 'Laravel', desc: 'Advanced Framework', icon: '🔴' },
+          { name: 'Laravel', desc: 'Advanced Framework', icon: '<img src="https://img.icons8.com/?size=100&id=hUvxmdu7Rloj&format=png&color=000000" alt="Laravel" class="w-6 h-6 object-contain dark:invert inline-block" />' },
           { name: 'PHP', desc: 'Modern PHP 8+', icon: '🐘' },
           { name: 'MySQL', desc: 'Database Optimization', icon: '🗄️' },
           { name: 'REST API', desc: 'Scalable Architecture', icon: '🔌' },
-          { name: 'Redis', desc: 'Caching & Queues', icon: '⚡' },
         ],
       },
       {
@@ -310,7 +310,6 @@
           { name: 'Stripe', desc: 'Payment & Subscriptions', icon: '💳' },
           { name: 'PayPal', desc: 'Global Checkout Integration', icon: '💰' },
           { name: 'Printify', desc: 'Print-on-Demand API', icon: '👕' },
-          { name: 'bKash', desc: 'Local Mobile Banking', icon: '📱' },
           { name: 'Google APIs', desc: 'OAuth & Calendar Sync', icon: '📅' },
         ],
       },
